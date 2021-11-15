@@ -1,6 +1,7 @@
 /* 
  * This is the main file for the web service. It uses express and  
- * imports everything from other js-files for the web service to work
+ * imports everything from other js-files for the web service to work.
+ * 
  * 
  */
 import express from 'express';
@@ -14,6 +15,7 @@ import {
   coursesRouter
 } from './courses/courses.router.js';
 
+// Declaring uri from the information set in .env file.
 const uri = `${process.env.MONGO_URI}/${process.env.MONGO_DB_NAME}`;
 
 (async () => {

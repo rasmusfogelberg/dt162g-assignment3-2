@@ -1,5 +1,5 @@
 /* 
- * This file is the Router of the webservice. I uses Express Router function
+ * This file is the Router of the webservice. I use Express Router function
  * and depending on the verb and what you put in the URI the router will
  * perform different operations
  * 
