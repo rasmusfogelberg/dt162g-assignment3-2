@@ -1,10 +1,16 @@
+/* 
+ * This file contains the model for the schema in the database
+ *
+ * 
+ */
+
 import mongoose from "mongoose";
 
 const courseSchema = new mongoose.Schema({
   code: {
-    type: String,
-    required: true,
-    unique: true,
+    type: String, // Setting what type the column should be
+    required: true, // Setting that it is required
+    unique: true, // Setting that it has to be unique
   },
   name: {
     type: String,
